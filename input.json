@@ -1,0 +1,43 @@
+{
+    "input_points" : {
+    "hvac":
+    {
+    "Inlet_Position":[[1,1,1]],
+    "Exit_Position":[ [[38,14,3],[38,40,3],[114,14,3],[114,40,3]]],
+    "Inlet_Point_direction":[[1,0,0]],
+    "Exit_Point_direction":[[[0,0,-1],[0,0,-1]],[[0,0,-1],[0,0,-1]]],
+    "Interference": false
+    },
+    
+    
+    "fire":
+    {
+    "Inlet_Position":[[1,3,1]],
+    "Exit_Position":[[[1,1,0],[2,2,0]],[[7,7,0],[8,8,0]]],           
+    "Inlet_Point_direction":[[1,0,0]],
+    "Exit_Point_direction":[[[0,0,-1],[0,0,-1]],[[0,0,-1],[0,0,-1]]],
+    "Interference": false
+    },
+    
+    
+    "Electrical":
+    {
+    "Inlet_Position":[[0,8,4]],
+    "Exit_Position":[[]],           
+    "Inlet_Point_direction":[[1,0,0]],
+    "Exit_Point_direction":[[[0,0,-1],[0,0,-1]],[[0,0,-1],[0,0,-1]]],
+    "Interference": true
+    },
+    
+    
+    "Internet":
+    {
+    "Inlet_Position":[[0,6,1]],
+    "Exit_Position":[[]],          
+    "Inlet_Point_direction":[[1,0,0]],
+    "Exit_Point_direction":[[[0,0,-1],[0,0,-1]],[[0,0,-1],[0,0,-1]]],
+    "Interference": true
+    }
+    }
+}
+    
